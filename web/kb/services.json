@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "name": "Sarkari Sahayak Knowledge Base",
+    "version": "1.0.0",
+    "updated": "2026-09-01",
+    "verified": "Helpline numbers cross-checked against official portals/PIB/EPFO citizen charter on 2026-09-01. Sources listed per service.",
+    "disclaimer": "Yeh app sirf madad ke liye hai — sarkari adhikari ya janta ka representative nahi. Paisa kabhi na dein, OTP kisi ko na batayein."
+  },
+  "services": {
+    "pm_kisan": {
+      "name_hi": "पीएम किसान सम्मान निधि",
+      "name_roman": "PM-Kisan Samman Nidhi",
+      "category": "kisan",
+      "portal": "pmkisan.gov.in",
+      "helpline": "155261",
+      "helpline_alt": "011-24300606",
+      "money": "Har 4 mahine me 2000 rupaye, saal me 6000 rupaye, seedha bank account me.",
+      "steps_hi": [
+        "पीएम किसान का पैसा सीधे आपके बैंक खाते में आता है। हर चार महीने में दो हज़ार रुपये, साल में छह हज़ार रुपये।",
+        "सबसे पहले अपना आधार और खेत के दस्तावेज़ ज़रूरी हैं। ये दोनों साथ रखें।",
+        "अपने गाँव के कॉमन सर्विस सेंटर या किसान सेवा केंद्र पर जाएँ। वहाँ कहें — पीएम किसान में मेरा रजिस्ट्रेशन करवाना है।",
+        "अधिकारी आपका आधार से ई-केवाई करेंगे। मोबाइल पर ओटीपी आएगा — वह ओटीपी सिर्फ अधिकारी को दिखाएँ, किसी और को नहीं।",
+        "अगर रजिस्ट्रेशन हो चुका है और पैसा नहीं आया, तो हेल्पलाइन नंबर एक पाँच पाँच दो छह एक पर फोन करें।",
+        "अपनी शिकायत का नंबर लिखवा लें ताकि बाद में पूछ सकें।"
+      ],
+      "steps_roman": [
+        "PM-Kisan ka paisa seedha bank account me aata hai — har 4 mahine 2000 rupaye, saal me 6000.",
+        "Sabse pehle apna Aadhaar aur khet ke dastavez zaroori hain — dono saath rakhein.",
+        "Apne gaon ke Common Service Center ya Kisan Seva Kendra par jaayen. Kahen — PM-Kisan me mera registration karwana hai.",
+        "Adhikari Aadhaar se eKYC karenge. Mobile par OTP aayega — OTP sirf adhikari ko dikhayen, kisi aur ko nahi.",
+        "Agar registration ho chuka hai aur paisa nahi aaya, toh helpline 155261 par phone karein.",
+        "Apni shikayat ka number likhwa lein taaki baad me pooch saken."
+      ],
+      "docs_hi": ["आधार कार्ड", "बैंक खाता पासबुक", "खेत के कागज़ (खतौनी/भू-अधिकार प्रमाण पत्र)"],
+      "docs_roman": ["Aadhaar card", "Bank account passbook", "Khet ke kagaz (khatoni/bhu-adhikar)"],
+      "faq": [
+        {"q_hi": "पैसा आना बंद हो गया तो क्या करें?", "a_hi": "अक्सर ई-केवाई या आधार-बैंक लिंकिंग की वजह से रुकता है। किसान सेवा केंद्र पर ई-केवाई दोबारा करवाएँ, फिर भी न आए तो हेल्पलाइन 155261 पर कॉल करें।"},
+        {"q_hi": "ज़मीन किसी और के नाम पर है?", "a_hi": "पीएम किसान सिर्फ उसी को मिलता है जिसके नाम ज़मीन का कागज़ है। खतौनी जिसकी है, रजिस्ट्रेशन उसी के नाम होगा।"}
+      ],
+      "keywords": ["pm kisan", "kisan", "kishan", "kheti", "farmer", "fasal", "khad", "beej", "krishi", "fasal bima", "bill", "6 hazaar", "6000", "kist", "instalment", "samman nidhi", "e kyc", "ekyc", "aadhaar bank"],
+      "source": "pmkisan.gov.in; PIB; News18 (helpline 155261 / 011-24300606)"
+    },
+    "ayushman": {
+      "name_hi": "आयुष्मान भारत कार्ड (पीएम-जय)",
+      "name_roman": "Ayushman Bharat PM-JAY",
+      "category": "swasthya",
+      "portal": "nha.gov.in / beneficiary.nha.gov.in",
+      "helpline": "14555",
+      "helpline_alt": "1800110770 (vay vandana 70+)",
+      "money": "Ilaaj me 5 lakh rupaye tak muft, poori family ko.",
+      "steps_hi": [
+        "आयुष्मान कार्ड से सरकारी और जुड़े अस्पतालों में पाँच लाख रुपये तक का इलाज मुफ़्त मिलता है।",
+        "अपना आधार कार्ड साथ लेकर अपने नज़दीकी आयुष्मान भारत सेवा केंद्र, सामुदायिक स्वास्थ्य केंद्र या अस्पताल की आयुष्मान मेज़ पर जाएँ।",
+        "वहाँ कहें — मुझे आयुष्मान कार्ड बनवाना है। वे आधार से आपका नाम लिस्ट में खोजेंगे।",
+        "अगर आपका नाम लिस्ट में है, तो फोटो खींचकर वहीं कार्ड बन जाएगा — कोई पैसा नहीं लगता।",
+        "अगर नाम नहीं मिला, तो हेल्पलाइन एक चार पाँच पाँच पाँच पर फोन करें और पूछें — मेरा नाम क्यों नहीं है।",
+        "इलाज के लिए अस्पताल की आयुष्मान मेज़ पर कार्ड और आधार दिखाएँ — उन्हें ही बताएँ कौन सा इलाज कराना है।"
+      ],
+      "steps_roman": [
+        "Ayushman card se sarkari aur juday hue aspataal me 5 lakh rupaye tak ilaaj muft milta hai.",
+        "Apna Aadhaar saath lekar nazdeeki Ayushman Bharat Seva Kendra, Community Health Center ya aspataal ki Ayushman mej par jaayen.",
+        "Wahan kahen — mujhe Ayushman card banwana hai. Woh Aadhaar se aapka naam list me dhoondhenge.",
+        "Agar naam list me hai, toh photo khinch kar wahin card ban jayega — koi paisa nahi lagta.",
+        "Agar naam nahi mila, toh helpline 14555 par phone karein aur poochen — mera naam kyun nahi hai.",
+        "Ilaaj ke liye aspataal ki Ayushman mej par card aur Aadhaar dikhayen — unhi ko batayen kaunsa ilaaj karana hai."
+      ],
+      "docs_hi": ["आधार कार्ड", "राशन कार्ड (मंगलवार सूची के लिए)"],
+      "docs_roman": ["Aadhaar card", "Ration card (SECC list ke liye)"],
+      "faq": [
+        {"q_hi": "कार्ड बनवाने में कितना खर्च आता है?", "a_hi": "एक भी रुपया नहीं। कार्ड बनवाना और इलाज — दोनों मुफ़्त हैं। कोई पैसे माँगे तो तुरंत हेल्पलाइन 14555 पर शिकायत करें।"},
+        {"q_hi": "कौन से अस्पताल में इलाज हो सकता है?", "a_hi": "जिन अस्पतालों पर आयुष्मान भारत का बोर्ड लगा है, वहीं इलाज होता है। हेल्पलाइन 14555 पर फोन करके अपने आसपास का अस्पताल पूछें।"}
+      ],
+      "keywords": ["ayushman", "ayushmaam", "aushman", "pm jay", "pmjay", "card banao", "hospital", "ilaaj", "ilaj", "dawai", "swasthya", "operation", "bimari", "5 lakh", "muft ilaaj", "nha", "vay vandana"],
+      "source": "nha.gov.in/contact-us (curl-verified 14555, 2026-09-01); beneficiary.nha.gov.in"
+    },
+    "eshram": {
+      "name_hi": "ई-श्रम कार्ड (मज़दूर कार्ड)",
+      "name_roman": "e-Shram Card (Shramik Card)",
+      "category": "mazdoor",
+      "portal": "eshram.gov.in",
+      "helpline": "14434",
+      "helpline_alt": "18008896811",
+      "money": "Kaam durghatna beema aur baaki yojanaon ke liye zaroori card.",
+      "steps_hi": [
+        "ई-श्रम कार्ड दिहाड़ी, मज़दूरी, ठेला, रिक्शा वाले सब मज़दूरों के लिए सरकारी कार्ड है — ये आगे की योजनाओं की चाबी बनेगा।",
+        "अपना आधार कार्ड और मोबाइल नंबर साथ रखें — मोबाइल आधार से जुड़ा होना चाहिए।",
+        "अपने नज़दीकी कॉमन सर्विस सेंटर पर जाएँ और कहें — ई-श्रम कार्ड बनवाना है।",
+        "ओटीपी आएगा तो सिर्फ सेंटर वाले को बताएँ। आपका व्यवसाय — काम का प्रकार — बताएँ, जैसे रिक्शा चलाना, बढ़ई का काम।",
+        "कार्ड बनने पर यू-ए-एन नंबर मिलेगा — वह नंबर और कार्ड अपने पास रखें।",
+        "कोई दिक्कत हो तो हेल्पलाइन एक चार चार तीन चार पर फोन करें — ये टोल फ्री है।"
+      ],
+      "steps_roman": [
+        "e-Shram card dihadi, mazdoori, thela, riksha wale sab mazdooron ke liye sarkari card hai — aage ki yojanaon ki chaabi.",
+        "Apna Aadhaar card aur mobile number saath rakhein — mobile Aadhaar se juda hona chahiye.",
+        "Nazdeeki Common Service Center par jaayen aur kahen — e-Shram card banwana hai.",
+        "OTP aaye toh sirf center wale ko batayen. Apna vyavsay — kaam ka prakar — batayen, jaise riksha chalana, badhai ka kaam.",
+        "Card banne par UAN number milega — woh number aur card apne paas rakhein.",
+        "Koi dikkat ho toh helpline 14434 par phone karein — yeh toll-free hai."
+      ],
+      "docs_hi": ["आधार कार्ड", "आधार से जुड़ा मोबाइल नंबर", "बैंक खाता (हो तो)"],
+      "docs_roman": ["Aadhaar card", "Aadhaar se juda mobile number", "Bank account (hoy toh)"],
+      "faq": [
+        {"q_hi": "कार्ड का कोई चार्ज है?", "a_hi": "नहीं, ई-श्रम रजिस्ट्रेशन बिल्कुल मुफ़्त है। कोई पैसे माँगे तो 14434 पर शिकायत करें।"},
+        {"q_hi": "कार्ड खो गया तो?", "a_hi": "अपना यू-ए-एन नंबर याद रखें। कॉमन सर्विस सेंटर से या ई-श्रम पोर्टल से दोबारा निकलवा सकते हैं।"}
+      ],
+      "keywords": ["shram", "shramik", "eshram", "e shram", "mazdoor", "mazdoori", "dihadi", "labour", "thelewala", "riksha", "uan", "worker card", "unorganised"],
+      "source": "eshram.gov.in/helpdesk (14434/18008896811)"
+    },
+    "epfo": {
+      "name_hi": "पीएफ और पेंशन (कर्मचारी भविष्य निधि)",
+      "name_roman": "EPFO / PF / Pension",
+      "category": "naukri",
+      "portal": "epfindia.gov.in",
+      "helpline": "1800118005",
+      "helpline_alt": "14470 (multilingual)",
+      "money": "Naukri ka jo paisa kata tha, woh nikalwane ke liye.",
+      "steps_hi": [
+        "पीएफ वो पैसा है जो नौकरी में आपकी तनख्वाह से हर महीने काटा गया था — नौकरी छूटने पर निकाला जा सकता है।",
+        "सबसे पहले अपना यू-ए-एन नंबर पता करें — यह मालिक या तनख्वाह की पर्ची पर मिलता है।",
+        "अपने नज़दीकी कॉमन सर्विस सेंटर, ई-मित्र या ईपीएफओ दफ़्तर पर जाएँ। कहें — मेरा पीएफ क्लेम करना है।",
+        "आधार, बैंक खाता पासबुक और यू-ए-एन नंबर दिखाएँ। आपका आधार, बैंक और यू-ए-एन आपस में जुड़े होने चाहिए।",
+        "काम छूटने के बाद एक महीना इंतज़ार करें, फिर फॉर्म भरें — पैसा कुछ ही दिनों में खाते में आता है।",
+        "कोई दिक्कत हो तो हेल्पलाइन एक आठ सून सून एक आठ सून सून पाँच पर फोन करें, या 14470 पर किसी भी भाषा में।"
+      ],
+      "steps_roman": [
+        "PF woh paisa hai jo naukri me aapki tankhwah se har mahine kata gaya tha — naukri chhootne par nikala ja sakta hai.",
+        "Sabse pehle apna UAN number pata karein — yeh maalik ya tankhwah ki parchi par milta hai.",
+        "Nazdeeki Common Service Center, e-Mitra ya EPFO daftar par jaayen. Kahen — mera PF claim karna hai.",
+        "Aadhaar, bank passbook aur UAN number dikhayen. Aadhaar, bank aur UAN aapas me juda hona chahiye.",
+        "Kaam chhootne ke baad ek mahina intezaar karein, phir form bharein — paisa kuch dinon me khate me aayega.",
+        "Dikkat ho toh helpline 1800118005 par phone karein, ya 14470 par kisi bhi bhasha me."
+      ],
+      "docs_hi": ["आधार कार्ड", "बैंक पासबुक", "यू-ए-एन नंबर"],
+      "docs_roman": ["Aadhaar card", "Bank passbook", "UAN number"],
+      "faq": [
+        {"q_hi": "पुरानी कंपनी का पीएफ भूल गया हूँ?", "a_hi": "आधार से पुराने सब पीएफ खाते मिल जाते हैं। ईपीएफओ कार्यालय या हेल्पलाइन 1800118005 पर बताएँ — आधार आपके सारे खाते खोज लेगा।"},
+        {"q_hi": "पैसा कितने दिन में आता है?", "a_hi": "फॉर्म भरने के बाद आम तौर पर 15 से 20 दिन में खाते में आ जाता है।"}
+      ],
+      "keywords": ["pf", "epf", "epfo", "pension", "naukri", "tankhwah", "uan", "provident", "fund", "bhavishya nidhi", "claim", "gobbar", "paise nikalna", "retirement"],
+      "source": "epfindia.gov.in Citizen Charter PDF (24x7 toll-free 1800118005; 14470 multilingual)"
+    },
+    "aadhaar": {
+      "name_hi": "आधार कार्ड",
+      "name_roman": "Aadhaar Card (UIDAI)",
+      "category": "pehchaan",
+      "portal": "uidai.gov.in / myaadhaar.uidai.gov.in",
+      "helpline": "1947",
+      "helpline_alt": "",
+      "money": "",
+      "steps_hi": [
+        "आधार में नाम, पता, मोबाइल — कुछ भी बदलना हो या डुप्लीकेट निकालना हो तो ये तरीका है।",
+        "पहला काम — आधार सेवा केंद्र या कॉमन सर्विस सेंटर जाएँ। वहाँ कहें — आधार में सुधार कराना है।",
+        "अपना आधार नंबर और मोबाइल नंबर बताएँ। ओटीपी आएगा — वही केंद्र पर दिखाएँ।",
+        "नाम या जन्म तारीख़ बदलने के लिए प्रमाण — जैसे राशन कार्ड, मतदाता कार्ड या 10वीं की मार्कशीट — साथ ले जाएँ।",
+        "सुधार के बाद पर्ची और यू-आर-एन नंबर लें — उसी से बाद में स्थिति पूछी जाती है।",
+        "कोई दिक्कत या शिकायत के लिए हेल्पलाइन एक नौ चार सात पर फोन करें — ये टोल फ्री है।"
+      ],
+      "steps_roman": [
+        "Aadhaar me naam, pata, mobile — kuch bhi badalna ho ya duplicate nikalna ho toh yeh tareeka hai.",
+        "Pehla kaam — Aadhaar Seva Kendra ya Common Service Center jaayen. Wahin kahen — Aadhaar me sudhaar karana hai.",
+        "Apna Aadhaar number aur mobile number batayen. OTP aayega — wahin center par dikhayen.",
+        "Naam ya janm tareekh badalne ke liye pramaan — jaise ration card, matdata card ya 10vi ki marksheet — saath le jaayen.",
+        "Sudhaar ke baad parchi aur URN number lein — usi se baad me sthiti poochhi jaati hai.",
+        "Koi dikkat ya shikayat ke liye helpline 1947 par phone karein — toll-free hai."
+      ],
+      "docs_hi": ["आधार नंबर", "मोबाइल (आधार से जुड़ा)", "प्रमाण दस्तावेज़ (राशन/मतदाता कार्ड इत्यादि)"],
+      "docs_roman": ["Aadhaar number", "Mobile (Aadhaar se juda)", "Pramaan dastavez (ration/matdata card aadi)"],
+      "faq": [
+        {"q_hi": "आधार का कागज़ खो गया?", "a_hi": "कॉमन सर्विस सेंटर से मास्क वाला ई-आधार मुफ़्त में निकलवा सकते हैं — बस आधार नंबर और ओटीपी चाहिए।"},
+        {"q_hi": "किसी ने आधार से पैसे काट लिए?", "a_hi": "तुरंत 1947 पर फोन करके शिकायत दर्ज कराएँ और बैंक को भी बताएँ।"}
+      ],
+      "keywords": ["aadhaar", "aadhar", "adhaar", "adhar", "uidai", "pehchaan", "identity", "biometric", "finger", "aadhar update", "e aadhaar", "kyc", "aadhaar bank link"],
+      "source": "UIDAI/PIB (1947 toll-free, pib.gov.in PRID 1952094)"
+    },
+    "ujjwala": {
+      "name_hi": "उज्ज्वाला गैस कनेक्शन",
+      "name_roman": "PM Ujjwala Yojana (LPG)",
+      "category": "ghar",
+      "portal": "pmuy.gov.in",
+      "helpline": "1906",
+      "helpline_alt": "18002666696",
+      "money": "Muft gas chulha connection aur pehli refill me subsidy.",
+      "steps_hi": [
+        "उज्ज्वाला योजना में ग़रीब परिवार को गैस सिलेंडर कनेक्शन मुफ़्त मिलता है।",
+        "अपना आधार, राशन कार्ड और बैंक पासबुक साथ रखें — बेटी या स्वयं सहायता समूह हो तो वही कागज़ भी।",
+        "अपने इलाके का गैस एजेंट — इंडेन, भारत गैस या एच-पी — ढूँढें और कहें — उज्ज्वला में गैस कनेक्शन चाहिए।",
+        "एजेंट आपका नाम उज्ज्वाला लिस्ट में खोजेगा। नाम मिला तो सिलेंडर, चूल्हा और रजिस्ट्रेशन फॉर्म बनेगा।",
+        "सब्सिडी के पैसे बैंक खाते में आते हैं — इसलिए आधार बैंक से जुड़ा होना ज़रूरी है।",
+        "गैस की गंध आए या कनेक्शन में दिक्कत हो तो तुरंत एक नौ छह पर फोन करें — ये गैस हेल्पलाइन है।"
+      ],
+      "steps_roman": [
+        "Ujjwala yojana me gareeb parivaar ko gas cylinder connection muft milta hai.",
+        "Apna Aadhaar, ration card aur bank passbook saath rakhein — beti ya swayam sahyata samuh ho toh woh kagaz bhi.",
+        "Apne ilaake ka gas agent — Indane, Bharat Gas ya HP — dhoondein aur kahen — Ujjwala me gas connection chahiye.",
+        "Agent aapka naam Ujjwala list me dhoondega. Naam mila toh cylinder, chulha aur registration form banega.",
+        "Subsidy ke paise bank khate me aate hain — isliye Aadhaar bank se juda hona zaroori hai.",
+        "Gas ki gandh aaye ya connection me dikkat ho toh turant 1906 par phone karein — yeh gas helpline hai."
+      ],
+      "docs_hi": ["आधार कार्ड", "राशन कार्ड / बी-पी-एल कागज़", "बैंक पासबुक"],
+      "docs_roman": ["Aadhaar card", "Ration card / BPL kagaz", "Bank passbook"],
+      "faq": [
+        {"q_hi": "सब्सिडी रुक गई?", "a_hi": "अक्सर गैस बुकिंग न होने या बैंक-आधार लिंकिंग से रुकती है। एजेंट से बुकिंग कराएँ और बैंक में आधार लिंक जाँचें। फिर भी दिक्कत हो तो 1906 पर पूछें।"},
+        {"q_hi": "कनेक्शन के लिए पैसे माँगे?", "a_hi": "उज्ज्वला कनेक्शन में रजिस्ट्रेशन फ्री है। पैसे माँगे जाएँ तो 1906 पर शिकायत करें।"}
+      ],
+      "keywords": ["gas", "gais", "ujjwala", "oojjwala", "chulha", "cylinder", "silender", "lpg", "subsidy", "refill", "indane", "bharat gas", "hp gas", "connection", "1906"],
+      "source": "pmuy.gov.in (curl-verified 1906, 1800224344 — 2026-09-01)"
+    },
+    "nrega": {
+      "name_hi": "मनरेगा (काम की माँग)",
+      "name_roman": "MGNREGA (Rozgar Guarantee)",
+      "category": "mazdoor",
+      "portal": "nrega.nic.in",
+      "helpline": "state-specific",
+      "helpline_alt": "18001806127 (select states)",
+      "money": "Gaon me 100 din ka kaam ki guarantee.",
+      "steps_hi": [
+        "मनरेगा में हर गाँव के मज़दूर परिवार को साल में सौ दिन के काम की गारंटी मिलती है।",
+        "काम चाहिए तो ग्राम पंचायत के मुखिया — प्रधान या पंच या पंचायत कार्यालय — को लिखित माँग दें। कहें — मुझे मनरेगा में काम चाहिए।",
+        "अपना जॉब कार्ड नंबर और आधार साथ रखें। जॉब कार्ड न हो तो पहले जॉब कार्ड बनवाने को कहें — यह भी मुफ़्त है।",
+        "माँग देने के 15 दिन के अंदर काम देना ग्राम पंचायत की ज़िम्मेदारी है। काम न मिले तो बेरोज़गारी भत्ता का हक़ बनता है।",
+        "काम का हिसाब — मज़दूरी की रसीद — हर हफ़्ते पंचायत के बोर्ड पर लगता है, वहाँ जाँच करें।",
+        "काम न मिले या मज़दूरी का पैसा न आए तो ज़िला कार्यालय — मनरेगा अधिकारी — को लिखित शिकायत दें, या अपने राज्य के मनरेगा हेल्पलाइन नंबर पर फोन करें।"
+      ],
+      "steps_roman": [
+        "MGNREGA me har gaon ke mazdoor parivaar ko saal me 100 din kaam ki guarantee milti hai.",
+        "Kaam chahiye toh Gram Panchayat ke mukhiya — pradhan ya panch ya panchayat karyalaya — ko likhit maang dein. Kahen — mujhe MGNREGA me kaam chahiye.",
+        "Apna job card number aur Aadhaar saath rakhein. Job card na ho toh pehle job card banwane ko kahen — yeh bhi muft hai.",
+        "Maang dene ke 15 din ke andar kaam dena Gram Panchayat ki zimmedari hai. Kaam na mile toh berozgari bhatta ka haq banta hai.",
+        "Kaam ka hisaab — mazdoori ki rasid — har hafte panchayat ke board par lagta hai, wahan jaanch karein.",
+        "Kaam na mile ya mazdoori ka paisa na aaye toh Zila Karyalaya — MGNREGA adhikari — ko likhit shikayat dein, ya apne rajya ka MGNREGA helpline number par phone karein."
+      ],
+      "docs_hi": ["आधार कार्ड", "जॉब कार्ड (पुराना हो तो)", "बैंक/डाकघर खाता"],
+      "docs_roman": ["Aadhaar card", "Job card (purana hoy toh)", "Bank/daakghar khata"],
+      "faq": [
+        {"q_hi": "काम नहीं मिला तो?", "a_hi": "लिखित माँग की पर्ची अपने पास रखें। 15 दिन में काम न मिले तो बेरोज़गारी भत्ता का दावा बनता है — ज़िला अधिकारी को लिखें।"},
+        {"q_hi": "हेल्पलाइन नंबर क्या है?", "a_hi": "मनरेगा हेल्पलाइन राज्य के हिसाब से अलग है — अपने ज़िले के मनरेगा कार्यालय से पता करें या पंचायत के बोर्ड पर लिखा होता है।"}
+      ],
+      "keywords": ["nrega", "manrega", "mnrega", "rozgar", "kaam", "job card", "mazdoori", "panchayat", "100 din", "shram", "employment guarantee", "bhatta"],
+      "source": "nrega.nic.in (grievance portal); helplines state-specific (e.g. 1800-180-6127 per state announcements)"
+    },
+    "pension": {
+      "name_hi": "बुढ़ापा पेंशन (वृद्धावस्था पेंशन)",
+      "name_roman": "Old Age Pension (NSAP)",
+      "category": "penchan",
+      "portal": "nsap.nic.in (state portals)",
+      "helpline": "state-specific",
+      "helpline_alt": "1912/14567 (many states)",
+      "money": "Har mahine pension ka paisa bank me.",
+      "steps_hi": [
+        "बुढ़ापा पेंशन 60 साल से ज़्यादा उम्र के ग़रीब बुज़ुर्गों को हर महीने मिलती है — केंद्र और राज्य मिलाकर।",
+        "अपना आधार, उम्र का प्रमाण — जैसे 10वीं की मार्कशीट, या आधार — और बैंक पासबुक साथ रखें।",
+        "अपने ग्राम पंचायत या नगर पालिका के पेंशन वाले कार्यालय में जाएँ। कहें — वृद्धावस्था पेंशन का फॉर्म भरना है।",
+        "फॉर्म के साथ ग़रीबी का दस्तावेज़ — राशन कार्ड या बी-पी-एल सूची — चाहिए हो सकता है, वह भी ले जाएँ।",
+        "फॉर्म जमा करने की पर्ची लें। जाँच होने के बाद पेंशन बैंक खाते में आने लगती है।",
+        "दिक्कत हो तो अपने ज़िले के समाज कल्याण कार्यालय में पूछें या राज्य की पेंशन हेल्पलाइन पर फोन करें।"
+      ],
+      "steps_roman": [
+        "Budhapa pension 60 saal se zyada umar ke gareeb buzurgon ko har mahine milti hai — kendr aur rajya milakar.",
+        "Apna Aadhaar, umar ka pramaan — jaise 10vi marksheet ya Aadhaar — aur bank passbook saath rakhein.",
+        "Gram Panchayat ya Nagar Palika ke pension wale karyalaya me jaayen. Kahen — vridhavastha pension ka form bharna hai.",
+        "Form ke saath gareebi ka dastavez — ration card ya BPL list — chahiye ho sakta hai, woh bhi le jaayen.",
+        "Form jama karne ki parchi lein. Jaanch hone ke baad pension bank khate me aane lagti hai.",
+        "Dikkat ho toh apne zile ka Samaj Kalyan Karyalaya me poochen ya rajya ki pension helpline par phone karein."
+      ],
+      "docs_hi": ["आधार कार्ड", "उम्र का प्रमाण (मार्कशीट/आधार)", "बैंक पासबुक", "राशन कार्ड/बी-पी-एल कागज़"],
+      "docs_roman": ["Aadhaar card", "Umar ka pramaan (marksheet/Aadhaar)", "Bank passbook", "Ration card/BPL kagaz"],
+      "faq": [
+        {"q_hi": "पेंशन रुक गई?", "a_hi": "अक्सर जीवन-प्रमाण (life certificate) न भरने से रुकती है। बैंक या समाज कल्याण कार्यालय में जीवन-प्रमाण भरवाएँ — आधार से ऑनलाइन भी होता है।"},
+        {"q_hi": "उम्र का कागज़ नहीं है?", "a_hi": "पंचायत या अस्पताल की उम्र-प्रमाण पर्ची भी मान्य होती है — कार्यालय में पूछें।"}
+      ],
+      "keywords": ["pension", "budhapa", "vriddha", "vridha", "old age", "buzurg", "penchan", "samaj kalyaan", "widow pension", "vidhwa", "divyang"],
+      "source": "nsap.nic.in (central); helplines/state portals state-specific"
+    },
+    "ration": {
+      "name_hi": "राशन कार्ड (सब्सिडी अनाज)",
+      "name_roman": "Ration Card / PDS (Subsidised Food)",
+      "category": "khaadya",
+      "portal": "nfsa.nic.in / state PDS portal",
+      "helpline": "1967",
+      "helpline_alt": "state PDS toll-free",
+      "money": "2 rupaye kg chawal, 3 rupaye kg gehun jaise daam par anaj.",
+      "steps_hi": [
+        "राशन कार्ड से राशन की दुकान पर सस्ते दाम में चावल, आटा, दाल, तेल मिलता है।",
+        "नया कार्ड बनवाना हो तो अपने ग्राम पंचायत या नगर पालिका के राशन कार्यालय में जाएँ।",
+        "आधार, परिवार के सबके आधार नंबर, पुराना राशन कार्ड (हो तो) और बैंक पासबुक साथ ले जाएँ।",
+        "कहें — मेरा राशन कार्ड बनवाना है / नाम जोड़ना है / पता बदलना है। फॉर्म भरकर पर्ची लें।",
+        "कार्ड आने में कुछ हफ़्ते लगते हैं — पर्ची के नंबर से स्थिति पूछ सकते हैं।",
+        "दुकान पर राशन न मिले, कम मिले, या डेढ़ सूत्री बिल न दे तो हेल्पलाइन एक छह एक सात पर फोन करके शिकायत करें।"
+      ],
+      "steps_roman": [
+        "Ration card se ration ki dukaan par saste daam me chawal, aata, daal, tel milta hai.",
+        "Naya card banwana ho toh Gram Panchayat ya Nagar Palika ke ration karyalaya me jaayen.",
+        "Aadhaar, parivaar ke sabke Aadhaar number, purana ration card (hoy toh) aur bank passbook saath le jaayen.",
+        "Kahen — mera ration card banwana hai / naam jodna hai / pata badalna hai. Form bharkar parchi lein.",
+        "Card aane me kuch hafte lagte hain — parchi ke number se sthiti pooch sakte hain.",
+        "Dukaan par ration na mile, kam mile, ya 1.5sutri bil na de toh helpline 1967 par phone karke shikayat karein."
+      ],
+      "docs_hi": ["आधार कार्ड (सब सदस्यों के)", "पुराना राशन कार्ड (हो तो)", "बैंक पासबुक"],
+      "docs_roman": ["Aadhaar card (sab sadasyon ke)", "Purana ration card (hoy toh)", "Bank passbook"],
+      "faq": [
+        {"q_hi": "दुकान वाला राशन नहीं देता?", "a_hi": "1967 पर शिकायत करें — नाम, दुकान और तारीख़ बताएँ। कार्रवाई होती है और नाम गुप्त रखा जा सकता है।"},
+        {"q_hi": "बाहर राज्य में राशन लेना है?", "a_hi": "एक राष्ट्र एक राशन कार्ड योजना से आधार आधार पर देश में कहीं भी राशन ले सकते हैं — दुकान पर आधार की मशीन में उँगली लगानी होती है।"}
+      ],
+      "keywords": ["ration", "rashan", "anaj", "pds", "dukaan", "shop", "chawal", "gehu", "aata", "daal", "bpl", "one nation one ration", "epds", "khadya"],
+      "source": "nfsa.nic.in; PDS national helpline 1967 (per DoCAF announcements)"
+    }
+  },
+  "general": {
+    "name_hi": "सरकारी सेवा हेल्पलाइन",
+    "name_roman": "General Govt Services Help",
+    "portal": "services.india.gov.in / UMANG",
+    "helpline": "1800115454",
+    "helpline_alt": "1912 (some states)",
+    "steps_hi": [
+      "मैं सरकारी सेवाओं में मदद कर सकता हूँ — पीएम किसान, आयुष्मान कार्ड, ई-श्रम, पीएफ, आधार, गैस, मनरेगा, पेंशन और राशन कार्ड।",
+      "जिस सेवा के बारे में पूछना है, उसका नाम बोलें — जैसे — किसान का पैसा — या — गैस कनेक्शन।",
+      "सारी सरकारी सेवाओं के लिए यूमंग ऐप और वेबसाइट भी है — नंबर एक आठ सून सून एक एक पाँच चार पाँच चार।",
+      "अपना ज़िला बताएँ तो मैं आपको उस सेवा के दफ़्तर का तरीका भी बता दूँ।"
+    ],
+    "steps_roman": [
+      "Main sarkari sevaon me madad kar sakta hoon — PM-Kisan, Ayushman card, e-Shram, PF, Aadhaar, gas, MGNREGA, pension aur ration card.",
+      "Jis seva ke baare me poochna hai, uska naam bolen — jaise — kisan ka paisa — ya — gas connection.",
+      "Saari sarkari sevaon ke liye UMANG app aur website bhi hai — number 1800115454.",
+      "Apna zila batayen toh main us seva ke daftar ka tareeka bhi bata doon."
+    ],
+    "source": "UMANG app listings (1800-11-5454); services.india.gov.in"
+  },
+  "safety": {
+    "fraud_warnings_hi": [
+      "किसी भी सरकारी योजना का कार्ड बनवाने में एक भी रुपया नहीं लगता — जो पैसे माँगे वह ठगी है।",
+      "ओटीपी किसी को नहीं बताएँ — न फोन पर, न किसी ऐप में। बैंक और सरकार कभी ओटीपी नहीं माँगते।",
+      "आधार नंबर ज़रूरत के बिना किसी को न दें।",
+      "फोन पर आए 'प्राइज़', 'लॉटरी', 'किसान वीरा पैसा' जैसे मैसेज पर विश्वास न करें — ये ठगी के जाल हैं।",
+      "शक हो तो हेल्पलाइन 1930 (साइबर ठगी) पर तुरंत फोन करें।"
+    ],
+    "fraud_warnings_roman": [
+      "Kisi bhi sarkari yojana ka card banwane me ek bhi rupaya nahi lagta — jo paise maange woh thagi hai.",
+      "OTP kisi ko nahi batayen — na phone par, na kisi app me. Bank aur sarkar kabhi OTP nahi maangte.",
+      "Aadhaar number zaroorat ke bina kisi ko na dein.",
+      "Phone par aaye 'prize', 'lottery', jaise message par vishwas na karein — yeh thagi ke jaal hain.",
+      "Shak ho toh helpline 1930 (cyber thagi) par turant phone karein."
+    ]
+  }
+}

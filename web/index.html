@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Sarkari Sahayak — bolkar sarkari kaam kaise karein. PM-Kisan, Ayushman, e-Shram, PF, Aadhaar, Gas, MNREGA, Pension, Ration. Padhna zaroori nahi.">
+<title>Sarkari Sahayak — Voice-First Govt Services Assistant</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="brand">
+      <div class="logo">🏛️</div>
+      <div>
+        <h1>Sarkari Sahayak</h1>
+        <p class="tagline">बोलिए — सरकारी काम आपके लिए करेंगे। पढ़ना ज़रूरी नहीं।</p>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="lang-wrap" for="locale">Zubaan / Language</label>
+      <select id="locale">
+        <option value="hi-IN" selected>हिंदी / Hindi</option>
+        <option value="en-IN">English (India)</option>
+        <option value="mr-IN">मराठी / Marathi</option>
+        <option value="bn-IN">বাংলা / Bangla</option>
+        <option value="ta-IN">தமிழ் / Tamil</option>
+        <option value="te-IN">తెలుగు / Telugu</option>
+        <option value="gu-IN">ગુજરાતી / Gujarati</option>
+        <option value="kn-IN">ಕನ್ನಡ / Kannada</option>
+        <option value="ml-IN">മലയാളം / Malayalam</option>
+        <option value="pa-IN">ਪੰਜਾਬੀ / Punjabi</option>
+        <option value="or-IN">ଓଡ଼ିଆ / Odia</option>
+        <option value="ur-IN">اردو / Urdu</option>
+        <option value="as-IN">অসমীয়া / Assamese</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section class="mic-section">
+      <div id="status" class="status ready">Tap karein aur bolen</div>
+      <button id="micBtn" class="mic" aria-label="Bolna shuru karein">
+        <svg viewBox="0 0 24 24" width="64" height="64" fill="currentColor" aria-hidden="true">
+          <path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2z"/>
+        </svg>
+      </button>
+      <p class="hint">Jaise: <em>"kisan bill kaise bharein"</em> · <em>"ayushman card banwana hai"</em> · <em>"gas connection chahiye"</em></p>
+      <div id="transcript" class="transcript" hidden></div>
+      <div class="typing-wrap">
+        <input id="typeBox" type="text" placeholder="Na bolein? Yahan likhein (optional)…" autocomplete="off">
+        <button id="typeGo" class="go">➤</button>
+      </div>
+      <div class="quick-chips" id="chips"></div>
+    </section>
+
+    <section id="result" class="result" hidden>
+      <div class="result-head">
+        <h2 id="svcName"></h2>
+        <div class="badges">
+          <span id="intentBadge" class="badge"></span>
+          <span id="confBadge" class="badge soft"></span>
+        </div>
+      </div>
+      <div id="aiAnswer" class="ai-answer" hidden></div>
+      <ol id="steps" class="steps"></ol>
+      <div class="actions">
+        <button id="speakAll" class="btn primary">🔊 Poora sunein</button>
+        <a id="callBtn" class="btn call" href="#" tel-hidden>📞 Helpline: <span id="helplineNum"></span></a>
+        <a id="portalBtn" class="btn" target="_blank" rel="noopener">🌐 Official website</a>
+      </div>
+      <div class="docs">
+        <h3>Kagaz jo saath rakhein</h3>
+        <ul id="docsList"></ul>
+      </div>
+      <details class="faq" id="faqBox">
+        <summary>Aksar poochhe jaane wale sawaal</summary>
+        <div id="faqList"></div>
+      </details>
+    </section>
+
+    <section class="safety">
+      <h3>⚠️ Dhoka-dhadi se bachhein</h3>
+      <ul id="fraudList"></ul>
+      <p class="cyber">Online thagi hui? Turant <a href="tel:1930">1930</a> par call karein.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sarkari Sahayak — IIT Guwahati capstone. Sab kaam aapke phone me hi hota hai (offline-first). Yeh app sarkari adhikari nahi hai — madad karne wala dost hai.</p>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.17.3/dist/ort.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
